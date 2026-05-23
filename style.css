@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, blue, green, red);
+}
+
+header {
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    height: 32px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    max-width: 1100px;
+}
+
+article {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+footer {
+    background-color: blue;
+    padding: 40px 0px 45px 45px;
+    display: flex;
+}
+
+footer a {
+    margin-right: 50px;
+}
+
+footer p {
+    font-size: 24px;
+    color: white;
+}
+
+.article-but:hover {
+    color: red;
+    background-color: lightgreen;
+}
+
+.button:hover {
+    color: red;
+    background-color: lightgreen;
+}
+
+.nav-link:hover {
+    color: aqua;
+}
+
+.logo:hover { 
+    margin: 100px; 
+    transform: scale(1.5); 
+    transition: 2s linear; 
+    }
+
+article:hover { 
+    box-shadow: 0 5px 5px 5px navy; 
+    background-color: #0062ff; 
+    font-size: 25px; 
+    transition: 1s ease-in; 
+    color: rgb(195, 255, 0); 
+    }
